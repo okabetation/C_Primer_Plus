@@ -1,0 +1,5 @@
+﻿  源.c
+c:\users\17707\source\repos\更多printf的特性\更多printf的特性\源.c(12): warning C4477: “printf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 2 拥有了类型“__int64”
+  c:\users\17707\source\repos\更多printf的特性\更多printf的特性\源.c(12): note: 请考虑在格式字符串中使用“%lld”
+  c:\users\17707\source\repos\更多printf的特性\更多printf的特性\源.c(12): note: 请考虑在格式字符串中使用“%I64d”
+  更多printf的特性.vcxproj -> C:\Users\17707\source\repos\更多printf的特性\Debug\更多printf的特性.exe

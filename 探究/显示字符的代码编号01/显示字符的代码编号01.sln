@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "显示字符的代码编号01", "显示字符的代码编号01\显示字符的代码编号01.vcxproj", "{049FF2CB-35E5-4978-83E5-CA90277CE885}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Debug|x64.ActiveCfg = Debug|x64
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Debug|x64.Build.0 = Debug|x64
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Debug|x86.ActiveCfg = Debug|Win32
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Debug|x86.Build.0 = Debug|Win32
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Release|x64.ActiveCfg = Release|x64
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Release|x64.Build.0 = Release|x64
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Release|x86.ActiveCfg = Release|Win32
+		{049FF2CB-35E5-4978-83E5-CA90277CE885}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F4487F9-1D2E-4F6D-A4FB-D01EB177DECC}
+	EndGlobalSection
+EndGlobal
