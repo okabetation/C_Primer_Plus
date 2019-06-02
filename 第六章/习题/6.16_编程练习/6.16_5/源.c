@@ -1,57 +1,62 @@
 #include <stdio.h>
 int main(void)
 {
-	char x,space=' ';
-	int A, B, C, D;
-
-	printf("ÇëÊäÈëÒ»¸ö´óĞ´×ÖÄ¸£º\n");
-	scanf("%c", &x);
-	A = x - 'A';
-	B = x + y - A;
-	for (int y = 0; y <= A; y++)
+	int hang, x, y, i, j, k;
+	char letter, space,a;
+	space =' ';
+	printf("è¯·è¾“å…¥ä¸€ä¸ªå¤§å†™å­—æ¯:");
+	scanf("%c", &letter);
+	x = letter - 64;
+	for (hang = 0; hang < x; hang++)
 	{
-		for (int j = y,B=x+y-A; j >0; j--)	//½µĞò
+		for (y = 0; y<=x-hang; y++)	//ç©ºæ ¼æ•°
 		{
-			for (int n = 0,a = 'A'; n <= y; n++)	//ÉıĞò
+			putchar(space);
+		}
+
+		a = 'A';	//æ¯æ¬¡å¾ªç¯ä»Aå¼€å§‹
+			for (i = 0; i <= hang; i++)	//å‡åºæ‰“å°
 			{
-				for (int i = 0; i <= A; i++)	//	Êä³ö¿Õ¸ñ
-				{
-					putchar(space);
-				}
-				printf("%c", a);
+				printf("%C", a);
 				a++;
 			}
-			printf("%c", B);
-			B--;
-		}
+			k =letter+ hang - x;			//é™åºæ‰“å°
+			for (j = hang; j >0; j--)
+			{
+				printf("%c", k);
+				k--;
+			}
 		printf("\n");
 	}
 	getchar();
 	getchar();
 	return 0;
-
 }
-/*char x;
-printf("ÇëÊäÈëÒ»¸ö´óĞ´×ÖÄ¸£º\n");
-scanf("%c", &x);
-for (char y = 'A'; y <= 'A' + (x - 'A'); y++)
+/*
+#include <stdio.h>
+int main(void)
 {
-	for (char i = 'A'; i <= 'A' + (x - 'A'); i++)
+	int x, y;
+	char ch;
+	printf("è¯·è¾“å…¥ä¸€ä¸ªå¤§å†™å­—æ¯ï¼š");
+	scanf("%c", &ch);
+	for (x = 0; x < ch - 'A'+1; x++)
 	{
-		for (char n = 'A'; n <= 'A' + (x - 'A'); n++)
+		for (y = 0; y < ch - 'A' + 1-x; y++)
 		{
-			for (char j = x; x + (x - 'A') >= 'A'; j--)
-			{
-				printf("%c", j);
-
-			}
-			printf("%c", n);
+			printf(" ");
 		}
-		printf("%c", i);
+		for (y = 65; y <= 'A' + x; y++)
+		{
+			printf("%c", y);
+		}
+		for (y = 'A' + x-1; y >='A'; y--)
+			printf("%c", y);
+		printf("\n");
 	}
-	printf("\n");
+	getchar();
+	getchar();
+	return 0;
 }
-getchar();
-getchar();
-return 0;
+
 */
